@@ -4,4 +4,4 @@
 
   tasks:
         - name: Copy java project1
-          copy: src=Hello.class dest=/home/ec2-user/ backup=yes
+          copy: src=Hello.class dest=/home/deepak backup=yes
