@@ -1,0 +1,7 @@
+---
+
+- hosts: 103.206.248.235
+
+  tasks:
+        - name: Copy java project1
+          copy: src=Hello.class dest=/home/ec2-user/ backup=yes
